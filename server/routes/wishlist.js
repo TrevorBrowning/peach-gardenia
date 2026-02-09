@@ -5,7 +5,7 @@ router.get('/', (req,res)=>{
   res.send("All wishlists")
 })
 
-router.get('/:id', (req,res)=>{
+router.get('/wishlist/:id', (req,res)=>{
   res.send("Viewing one wishlist")
 })
 
